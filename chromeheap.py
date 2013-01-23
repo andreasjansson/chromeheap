@@ -5,6 +5,7 @@ def stats():
     return (snapshot['total_heap_size'], snapshot['total_v8_node_count'])
 
 
+# below is based on http://code.google.com/p/leak-finder-for-javascript/
 
 # Copyright (c) 2012 The Chromium Authors. All rights reserved.
 # Use of this source code is governed by a BSD-style license that can be
