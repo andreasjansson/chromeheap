@@ -15,6 +15,6 @@ if __name__ == '__main__':
     driver.get('http://www.thisismyjam.com')
 
     stats = chromeheap.stats()
-    print 'heap size: %s, node count: %d\n' % stats
+    print 'heap size: %d, node count: %d\n' % stats
 
     driver.close()
